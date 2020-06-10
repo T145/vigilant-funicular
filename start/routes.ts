@@ -20,11 +20,15 @@
 
 import Route from '@ioc:Adonis/Core/Route'
 
+// Simple view
+//Route.on('/').render('welcome')
+
+// More control
 Route.get('/', async ({ view }) => {
   return view.render('welcome')
 })
 
 Route.get('messages/create', 'MessagesController.create')
 Route.post('messages', 'PostsController.store')
-Route.on('/').render('welcome')
+
 Route.on('/signin').render('signin')
