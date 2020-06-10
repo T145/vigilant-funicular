@@ -26,3 +26,5 @@ Route.get('/', async ({ view }) => {
 
 Route.get('messages/create', 'MessagesController.create')
 Route.post('messages', 'PostsController.store')
+Route.on('/').render('welcome')
+Route.on('/signin').render('signin')

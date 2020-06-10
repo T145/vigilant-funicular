@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang = "en-US">
+
+<head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link href="signin.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+</head>  
+
+
+<body class="siteBody">	
+    <main>
+        <div class="pageContent">
+            <div class="parallax">
+                <div class="loginFormContainer">
+                    <form action="CHANGEME" method="post"></form>
+                        <div class="usernameContainer">
+                            <div class="inputLabel">
+                                <label for ="usrname"><b>Username</b></label>
+                            </div> 
+                            <input type="text" class="inputBox" placeholder="Enter Username" name="usrname" required>
+                            <br>
+                        </div>
+                        
+                        <div class="passwordContainer">
+                            <label for="psswd" class="inputLabel"><b>Password</b></label>
+                            <input type="password" class="inputBox" placeholder="Enter Password" name="psswd" required>
+                            <br>
+                        </div>
+                        
+                        <div class="submitContainer">
+                            <button type="submit" class="loginButton" name="login">Login</button>
+                        
+                            <label for="rememberme">
+                                <input type="checkbox" checked="checked" name="rememberme"> Remember me
+                            </label>
+                            <br>
+                        </div>
+                        
+                        <div class="createAccountContainer">
+                            <span class="newAcct"><a href="#">Create a new account</a></span>
+                        </div>
+    
+                        <div class="forgotPassContainer">
+                            <span class="forgotPassword"><a href="#">I forgot my password</a></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>

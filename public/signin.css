@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+
+.siteBody
+{
+    display: inline-block;
+    width: 100%;
+	margin: 0; 
+	padding: 0;
+}
+
+.pageContent
+{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.parallax
+{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    background-color: #000000;
+}
+
+.loginFormContainer
+{   
+    display: inline-block;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color:#ffffff;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 18px;
+	max-width: 800px;
+	margin: 0 auto;
+	display: inline-block;
+    font-weight: normal;
+}
+
+.inputLabel
+{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    padding-bottom: 2%;
+}
+
+.inputBox
+{
+    font-family: 'Press Start 2P', cursive;
+	font-size: 18px;
+    display: inline-block;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin: 0 auto;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.usernameContainer
+{
+    display: inline-block;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 0 auto;
+}
+
+.passwordContainer
+{
+    display: inline-block;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 0 auto;
+}
+
+.submitContainer
+{
+    display: inline-block;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 0 auto;
+}
+
+.loginButton
+{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.createAccountContainer
+{
+    display: inline-block;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 1.5%;
+}
+
+.forgotPassContainer
+{
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 1.5%;
+}
